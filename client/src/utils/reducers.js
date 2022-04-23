@@ -2,8 +2,14 @@ import { useReducer } from 'react';
 import {
     UPDATE_PRODUCTS,
     UPDATE_CATEGORIES,
-    UPDATE_CURRENT_CATEGORY
-} from "./actions";
+    UPDATE_CURRENT_CATEGORY,
+    ADD_TO_CART,
+    ADD_MULTIPLE_TO_CART,
+    REMOVE_FROM_CART,
+    UPDATE_CART_QUANTITY,
+    CLEAR_CART,
+    TOGGLE_CART
+} from './actions';
 
 export const reducer = (state, action) => {
     switch (action.type) {
@@ -25,6 +31,13 @@ export const reducer = (state, action) => {
                 ...state,
                 currentCategory: action.currentCategory
             };
+        case ADD_TO_CART:
+            return {
+                ...state,
+                cartOpen: true,
+                cart: [...state.cart, action.product]
+            };
+            
 
         default:
             return state;
@@ -33,4 +46,4 @@ export const reducer = (state, action) => {
 
 export function useProductReducer(initialState) {
     return useReducer(reducer, initialState);
-  }
+}
