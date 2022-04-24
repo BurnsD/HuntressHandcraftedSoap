@@ -10,6 +10,7 @@ const typeDefs = gql`
     _id: ID
     name: String
     description: String
+    ingredients: String
     image: String
     quantity: Int
     price: Float
