@@ -17,6 +17,7 @@ import { StoreProvider } from './utils/GlobalState';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
 import Hero from './components/Hero';
+import About from './components/About';
 import './App.css';
 
 
@@ -48,6 +49,7 @@ function App() {
           <StoreProvider>
             <Nav />
             <Hero />
+            <About />
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/login" component={Login} />
