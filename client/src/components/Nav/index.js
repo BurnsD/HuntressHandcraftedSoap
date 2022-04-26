@@ -41,7 +41,7 @@ function Nav() {
   }
 
   return (
-    <header className="flex-row px-1 bg-transparent">
+    <header className="flex-row bg-transparent">
       <h1>
         <img src={Logo} className='img-fluid' alt='logo' />
         <Link to="/">
