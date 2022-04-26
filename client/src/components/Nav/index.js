@@ -1,6 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+import Logo from "../../assets/LogoW-Text.png";
 
 function Nav() {
 
@@ -23,27 +24,28 @@ function Nav() {
       );
     } else {
       return (
-        <ul className="flex-row">
-          <li className="mx-1">
+        <container className="flex-row">
+          <div className="mx-1">
             <Link to="/signup">
-              Signup
+              <span className='text-dark'>Sign Up</span>
             </Link>
-          </li>
-          <li className="mx-1">
+          </div>
+          <div className="mx-1">
             <Link to="/login">
-              Login
+              <span className='text-dark'>Login</span>
             </Link>
-          </li>
-        </ul>
+          </div>
+        </container>
       );
     }
   }
 
   return (
-    <header className="flex-row px-1">
+    <header className="flex-row px-1 bg-transparent">
       <h1>
+        <img src={Logo} className='img-fluid' alt='logo' />
         <Link to="/">
-          Huntress Handcrafted
+          <span className='text-dark'>Huntress Handcrafted</span>
         </Link>
       </h1>
 
