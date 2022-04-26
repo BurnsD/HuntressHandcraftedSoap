@@ -212,6 +212,13 @@ Blurbs: I think it might be helpful to have shop filters, also, so that customer
 ============================================================================================
 
 
+Hex Codes for colors:
+
+Forest Greens to try: #014421 #195905 #006400 #056608
+
+Teal: #c6e3df #86cec4 #7dd7cb #86cec4
+
+off-white: #fffdf9 #fffdfb # fdfdfd #fffaf0
 
 
 
