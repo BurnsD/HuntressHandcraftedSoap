@@ -27,12 +27,12 @@ function Nav() {
       return (
         <container className="flex-row mx-auto">
           <div className="mx-1">
-            <Link to="/signup">
+            <Link to="/signup" style={{ textDecoration: 'none' }}>
               <span className='text-dark'>Sign Up</span>
             </Link>
           </div>
           <div className="mx-1">
-            <Link to="/login">
+            <Link to="/login" style={{ textDecoration: 'none' }}>
               <span className='text-dark'>Login</span>
             </Link>
           </div>
@@ -45,7 +45,7 @@ function Nav() {
     <header className="flex-row">
       <h1>
         <img src={Logo} className='img-fluid' alt='logo' />
-        <Link to="/">
+        <Link to="/" style={{ textDecoration: 'none' }}>
           <span className='text-dark'>Huntress Handcrafted</span>
         </Link>
       </h1>
