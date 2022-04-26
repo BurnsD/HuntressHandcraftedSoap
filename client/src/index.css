@@ -12,6 +12,7 @@
 html,
 body {
   min-height: 100%;
+  margin: 0;
 }
 
 body {
@@ -31,7 +32,7 @@ h5,
 h6 {
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
-  margin: 5px 0;
+  margin: 0;
   line-height: 1.25;
 }
 
@@ -80,6 +81,10 @@ header {
 
 header a {
   color: var(--light);
+}
+
+#productList {
+  background-color:#5296A5;
 }
 
 button {
