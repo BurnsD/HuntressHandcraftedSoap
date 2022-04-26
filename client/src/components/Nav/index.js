@@ -24,7 +24,7 @@ function Nav() {
       );
     } else {
       return (
-        <container className="flex-row">
+        <container className="flex-row mx-auto">
           <div className="mx-1">
             <Link to="/signup">
               <span className='text-dark'>Sign Up</span>
@@ -49,7 +49,7 @@ function Nav() {
         </Link>
       </h1>
 
-      <nav>
+      <nav className='mx-auto pt-4'>
         {showNavigation()}
       </nav>
     </header>
