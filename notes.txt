@@ -210,6 +210,13 @@ Shea Butter: This creamy, soft butter is high in vitamins A and E, as well as no
 Blurbs: I think it might be helpful to have shop filters, also, so that customers can filter by fragrance or scent family (Mens, Fruity, Fresh, Sweet, Floral, Unscented, Spicy, Herbal), amount of grit (Zero, Light, Medium, Heavy), essential oils only, made for sensitive skin....there are probably other filters that could be helpful but I'm blanking on them. Also, what about a meet the maker page for the mission statement and the values I've implemented in my business?
 
 ============================================================================================
+Hex Codes for colors:
+
+Forest Greens to try: #014421 #195905 #006400 #056608
+
+Teal: #c6e3df #86cec4 #7dd7cb #86cec4
+
+off-white: #fffdf9 #fffdfb # fdfdfd #fffaf0
 
 
 
