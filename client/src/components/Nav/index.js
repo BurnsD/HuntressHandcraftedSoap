@@ -46,7 +46,7 @@ function Nav() {
       <h1>
         <img src={Logo} className='img-fluid' alt='logo' />
         <Link to="/" style={{ textDecoration: 'none' }}>
-          <span className='text-dark'>Huntress Handcrafted</span>
+          <span id="brand" className='script'>Huntress Handcrafted</span>
         </Link>
       </h1>
 

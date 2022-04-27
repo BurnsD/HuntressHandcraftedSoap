@@ -1,8 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+
+
 :root {
     --primary: #5296A5;
     --secondary: #FE5F55;
     --tertiary: #272932;
     --accent:#F5D5ED;
+    --script: 'Dancing Script';
+}
+
+.script{
+  font-family: var(--script);
 }
 
 * {
@@ -75,12 +84,22 @@ a:hover {
   text-decoration: underline;
 }
 
+#brand {
+  color: var(--tertiary);
+}
+
 header {
   background: var(--primary);
+  color: var(--dark);
 }
 
 header a {
   color: var(--light);
+}
+
+header ul {
+  list-style: none;
+
 }
 
 #aboutDiv {
