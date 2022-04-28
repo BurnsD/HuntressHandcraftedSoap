@@ -1,13 +1,14 @@
 import React from 'react';
+import { Container } from 'react-bootstrap'
 import '../../index.css';
 
 function About() {
     return(
-        <div id='aboutDiv'>
+        <Container id='aboutDiv' fluid>
             <div className='pt-5 text-dark'>
-                <h1><u>Strive for Something Better</u></h1>
+                <h1 className='script text-light'>Strive for Something Better</h1>
             </div>
-            <div className='flex pb-5' id='aboutBar'>
+            <div className='pb-5'>
                 <p className='text-dark'>
                     I started making my own soap to get away from using
                     so many chemical-laden products on my own skin and knew that I could create something
@@ -21,7 +22,7 @@ function About() {
                 </p>
             </div>
             
-        </div>
+        </Container>
     )
 }
 

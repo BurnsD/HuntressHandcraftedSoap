@@ -1,12 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+
+
 :root {
     --primary: #5296A5;
     --secondary: #FE5F55;
     --tertiary: #272932;
     --accent:#F5D5ED;
+    --script: 'Dancing Script';
+}
+
+.script{
+  font-family: var(--script);
+}
+.scripttitle{
+  font-family: var(--script);
+}
+.script-sec{
+  font-family: var(--script);
+  color: var(--secondary);
 }
 
 * {
   box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 html,
@@ -63,6 +80,7 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  text-decoration: none;
 }
 
 a {
@@ -75,12 +93,28 @@ a:hover {
   text-decoration: underline;
 }
 
+#brand {
+  color: var(--tertiary);
+}
+
 header {
   background: var(--primary);
+  color: var(--dark);
 }
 
 header a {
   color: var(--light);
+}
+
+header ul {
+  list-style: none;
+
+}
+
+.soaptitle{
+  color: var(--secondary);
+  text-decoration: none;
+  font-family: var(--script);
 }
 
 #aboutDiv {
@@ -106,7 +140,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: var(--primary);
 }
 
 button:hover {
@@ -128,6 +162,10 @@ span[role="img"] {
 
 form {
   width: 40%;
+  background-color: var(--primary);
+  border-radius: 5%;
+  border: #F5D5ED solid 5px;
+  
 }
 
 input {
