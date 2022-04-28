@@ -1,3 +1,11 @@
+:root {
+  --primary: #5296A5;
+  --secondary: #FE5F55;
+  --tertiary: #272932;
+  --accent:#F5D5ED;
+  --script: 'Dancing Script';
+}
+
 .cart {
     position: fixed;
     top: 0;
@@ -5,16 +13,17 @@
     min-width: 20%;
     max-width: 30%;
     max-height: 60%;
-    background-color: var(--light);
+    background-color: var(--accent);
     overflow: auto;
     padding: .5rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
     border-bottom-left-radius: .5rem;
+    color: var(--tertiary);
   }
   
   .cart h2 {
     font-size: 1.5rem;
-    border-bottom: 1px solid var(--dark);
+    border-bottom: 1px solid var(--tertiary);
     padding-bottom: .5rem;
     margin: 1rem 0;
   }
