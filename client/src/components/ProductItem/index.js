@@ -47,7 +47,7 @@ function ProductItem(item) {
             alt={name}
             src={`/images/${image}`}
           />
-          <p>{name}</p>
+          <p className="soaptitle">{name}</p>
         </Link>
         <Card.Body className="text-dark">
           <p>

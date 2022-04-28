@@ -1,6 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+import { Container } from "react-bootstrap"
 import Logo from "../../assets/LogoW-Text.png";
 import '../../index.css';
 
@@ -25,7 +26,7 @@ function Nav() {
       );
     } else {
       return (
-        <container className="flex-row mx-auto">
+        <Container className="flex-row mx-auto">
           <div className="mx-1">
             <Link to="/signup" style={{ textDecoration: 'none' }}>
               <span className='text-dark'>Sign Up</span>
@@ -36,7 +37,7 @@ function Nav() {
               <span className='text-dark'>Login</span>
             </Link>
           </div>
-        </container>
+        </Container>
       );
     }
   }
