@@ -14,8 +14,14 @@
   font-family: var(--script);
 }
 
+.script-sec{
+  font-family: var(--script);
+  color: var(--secondary);
+}
+
 * {
   box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 html,
@@ -72,6 +78,7 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  text-decoration: none;
 }
 
 a {
@@ -103,7 +110,6 @@ header ul {
 }
 
 .soaptitle{
-  list-style: none;
   color: var(--secondary);
   text-decoration: none;
   font-family: var(--script);

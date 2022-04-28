@@ -6,6 +6,7 @@ import { useQuery } from '@apollo/client';
 import { QUERY_PRODUCTS } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 import spinner from '../../assets/spinner.gif';
+import { Container } from 'react-bootstrap'
 
 function ProductList() {
   const [state, dispatch] = useStoreContext();
@@ -47,7 +48,7 @@ function ProductList() {
     <div className="my-2">
       <h2 className='text-center'>Products</h2>
       {state.products.length ? (
-        <div className="flex-row">
+        <Container className="flex-row justify-content-center" fluid>
           {filterProducts().map((product) => (
             <ProductItem
               key={product._id}
@@ -58,7 +59,7 @@ function ProductList() {
               quantity={product.quantity}
             />
           ))}
-        </div>
+        </Container>
       ) : (
         <h3>You haven't added any products yet!</h3>
       )}

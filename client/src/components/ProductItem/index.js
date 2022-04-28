@@ -4,7 +4,7 @@ import { pluralize } from "../../utils/helpers"
 import { useStoreContext } from "../../utils/GlobalState";
 import { ADD_TO_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import { idbPromise } from "../../utils/helpers";
-import { Card, } from "react-bootstrap"
+import { Card } from "react-bootstrap"
 
 function ProductItem(item) {
   const [state, dispatch] = useStoreContext();
@@ -41,13 +41,13 @@ function ProductItem(item) {
   }
 
   return (
-      <Card style={{ width: '26rem' }} className="m-2 p-1">
+      <Card style={{ width: '25rem' }} className="m-2 p-1">
         <Link to={`/products/${_id}`}>
           <Card.Img
             alt={name}
             src={`/images/${image}`}
           />
-          <p className="soaptitle">{name}</p>
+          <p>{name}</p>
         </Link>
         <Card.Body className="text-dark">
           <p>
