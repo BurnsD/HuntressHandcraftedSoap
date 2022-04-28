@@ -47,9 +47,9 @@ function ProductItem(item) {
             alt={name}
             src={`/images/${image}`}
           />
-          <p>{name}</p>
+          <p style={{height: '30px'}}>{name}</p>
         </Link>
-        <Card.Body className="text-light d-flex flex-column">
+        <Card.Body className="text-light d-flex flex-column justify-content-end">
             <div>{quantity} {pluralize("item", quantity)} in stock</div>
             <span>${price}</span>
           <button onClick={addToCart}>Add to cart</button>

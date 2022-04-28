@@ -13,7 +13,9 @@
 .script{
   font-family: var(--script);
 }
-
+.scripttitle{
+  font-family: var(--script);
+}
 .script-sec{
   font-family: var(--script);
   color: var(--secondary);
@@ -140,7 +142,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: var(--primary);
 }
 
 button:hover {
