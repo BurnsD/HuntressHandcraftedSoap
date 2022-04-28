@@ -164,6 +164,10 @@ span[role="img"] {
 
 form {
   width: 40%;
+  background-color: var(--primary);
+  border-radius: 5%;
+  border: #F5D5ED solid 5px;
+  
 }
 
 input {
