@@ -9,7 +9,15 @@ function About() {
             </div>
             <div className='flex pb-5' id='aboutBar'>
                 <p className='text-dark'>
-                    Our soap is the best soap. There is no better soap. Any other soap wishes it was as good as our soap, hell, anything wishes it was as high quality and sustainably sourced as our soap. I mean, who wouldn't want soap infused with the finest Palm Oil supplied by none other than the Roundtable on Sustainable Palm Oil? You can't forget about the Tallow in these bad boys either. We exclusively use GMO Free, Grass-fed, Certified-human-raised-and-handled tallow to ensure our customers enjoy ethically produced, foamy, creamy bubbles. It feels good to be great.
+                    I started making my own soap to get away from using
+                    so many chemical-laden products on my own skin and knew that I could create something
+                    covetable at a fair price-point. Huntress Handcrafted Soaps are proudly made free of
+                    sulfates, parabens, and phthalates, meaning you won't have to bathe in lotion after using
+                    them. Synthetic lathering agents used by commercial soap companies are extremely inexpensive
+                    and have high cleansing properties, but strip the skin of their natural oils, keeping you in the
+                    constant cycle of slathering on creams and lotions after each and every shower. Here at Huntress, you won't
+                    find any of those detergents, but true natural soap made with nourishing ingredients like
+                    lather-licious milk, skin-loving butters, calming botanicals, and cold-pressed fruit juice!
                 </p>
             </div>
             
