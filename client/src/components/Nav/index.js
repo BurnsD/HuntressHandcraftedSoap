@@ -43,7 +43,7 @@ function Nav() {
   }
 
   return (
-    <Navbar className="flex-row">
+    <Navbar id='nav' className="flex-row">
       <Navbar.Brand className="flex-row align-items-center">
         <img src={Logo} className='img-fluid' alt='logo' />
         <Link to="/" style={{ textDecoration: 'none' }}>
