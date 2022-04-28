@@ -41,19 +41,17 @@ function ProductItem(item) {
   }
 
   return (
-      <Card style={{ width: '25rem' }} className="m-2 p-1">
-        <Link to={`/products/${_id}`}>
+      <Card style={{ width: '23rem' }} className="m-4 p-1 bg-transparent border border-light border-rounded">
+        <Link className="text-decoration-none soaptitle" to={`/products/${_id}`}>
           <Card.Img
             alt={name}
             src={`/images/${image}`}
           />
           <p>{name}</p>
         </Link>
-        <Card.Body className="text-dark">
-          <p>
+        <Card.Body className="text-light d-flex flex-column">
             <div>{quantity} {pluralize("item", quantity)} in stock</div>
             <span>${price}</span>
-          </p>
           <button onClick={addToCart}>Add to cart</button>
         </Card.Body>
       </Card>
