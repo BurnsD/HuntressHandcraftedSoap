@@ -20,9 +20,7 @@
   font-family: var(--script);
   color: var(--secondary);
 }
-#bg-card{
-  background-color: var(--primary);
-}
+
 * {
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
