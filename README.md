@@ -1,2 +1,2 @@
-This application may be tested LIVE at the link below:
+This application may be tested LIVE at the following address:
 https://huntress-handcrafted.herokuapp.com/
