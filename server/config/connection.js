@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/huntresshandcrafted', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/huntress-handcrafted', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
