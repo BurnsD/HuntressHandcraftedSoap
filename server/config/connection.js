@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/huntress-handcrafted', {
+const uri = process.env.ATLAS_URI;
+
+mongoose.connect(uri || 'mongodb://localhost/huntress-handcrafted', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
