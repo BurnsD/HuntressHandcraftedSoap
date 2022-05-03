@@ -150,6 +150,7 @@ db.once('open', async () => {
   });
 
   console.log('users seeded');
+  console.log(process.env.MONGODB_URI);
 
   process.exit();
 });
